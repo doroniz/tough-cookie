@@ -10,12 +10,8 @@
   },
   {
     "test": "0002",
-    "received": [
-      "foo=bar; Expires=Fri, 07 Aug 2019 08:04:19 GMT"
-    ],
-    "sent": [
-      { "name": "foo", "value": "bar" }
-    ]
+    "received": ["foo=bar; Expires=Fri, 07 Aug 9999 08:04:19 GMT"],
+    "sent": [{ "name": "foo", "value": "bar" }]
   },
   {
     "test": "0003",
@@ -706,21 +702,13 @@
   },
   {
     "test": "COMMA0006",
-    "received": [
-      "foo=bar; Expires=Fri, 07 Aug 2019 08:04:19 GMT"
-    ],
-    "sent": [
-      { "name": "foo", "value": "bar" }
-    ]
+    "received": ["foo=bar; Expires=Fri, 07 Aug 9999 08:04:19 GMT"],
+    "sent": [{ "name": "foo", "value": "bar" }]
   },
   {
     "test": "COMMA0007",
-    "received": [
-      "foo=bar; Expires=Fri 07 Aug 2019 08:04:19 GMT, baz=qux"
-    ],
-    "sent": [
-      { "name": "foo", "value": "bar" }
-    ]
+    "received": ["foo=bar; Expires=Fri 07 Aug 9999 08:04:19 GMT, baz=qux"],
+    "sent": [{ "name": "foo", "value": "bar" }]
   },
   {
     "test": "DISABLED_CHROMIUM0020",
